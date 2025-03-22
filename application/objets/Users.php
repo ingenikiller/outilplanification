@@ -10,11 +10,5 @@ class Users extends SavableObject {
 	
 	public $motDePasse;
 	
-	public $datecre;
-	
-	public $datemod;
-	
-	public $utimod;
-	
 }
 ?>

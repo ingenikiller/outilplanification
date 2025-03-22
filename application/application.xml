@@ -29,6 +29,13 @@
 			<service name="update"   classe="GestionPeriodeService" methode="update"   isPrivee="true" render="json"/>
 			<service name="getlisteactive" classe="GestionPeriodeService" methode="getListeActive" isPrivee="true"  render="json"/>
 		</domaine>
+		<domaine name="visionequipe">
+			<service name="getpage"  classe="GestionPeriodeService" methode="fictive"  isPrivee="true" xsl="xsl/visionequipe.xsl"/>
+		</domaine>
+		<domaine name="utilisateur">
+			<service name="getpage"  classe="GestionPeriodeService" methode="fictive"  isPrivee="true" xsl="xsl/visionequipe.xsl"/>
+			<service name="getliste"  classe="GestionUtilisateurService" methode="getListe"  isPrivee="true" render="json"/>
+		</domaine>
 		<domaine name="technique">
 			<service name="login" classe="Login" methode="fictive" isPrivee="false"  xsl="xsl/login.xsl"/>
 			<service name="connexion" classe="Login" methode="connexion" isPrivee="false" render="json"/>

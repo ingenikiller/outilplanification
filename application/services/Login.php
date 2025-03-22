@@ -22,10 +22,10 @@ class Login extends ServiceStub{
 	}
 	
 	public function getToken(ContextExecution $p_contexte){
-		//suppression des tokens expirés
+		//suppression des tokens expirï¿½s
 		TokenCommun::suppToken();
 		
-		//vérifie que l'utilisateur existe
+		//vï¿½rifie que l'utilisateur existe
 		$tab = CommunUser::getParameters($p_contexte);
 		
 		
@@ -33,7 +33,7 @@ class Login extends ServiceStub{
 		
 		$reponse = new ReponseAjax();
 		if($l_user!=null){
-			//génération du token
+			//gï¿½nï¿½ration du token
 			/*$p = new OAuthProvider();
 			$tokenValue = bin2hex($p->generateToken(16));*/
 			$tokenValue = uniqid(rand(), true);;

@@ -65,6 +65,37 @@ td
 	background: repeating-linear-gradient(135deg, #ffffff, #ffffff 5px, #7DDAFC 5px, #7DDAFC 10px);
 }
 
+.conges1
+{
+	background-color: #039FD8;
+}
+
+.conges2
+{
+	background: linear-gradient(to bottom, #039FD8 49%, #039FD8 1%, #FFFFFF 1%, #FFFFFF 50%);
+}
+
+.conges3
+{
+	background: linear-gradient(to bottom, #FFFFFF 49%, #FFFFFF 1%, #039FD8 1%, #039FD8 50%);
+}
+
+.absence1
+{
+	background-color: #f0e5e5;
+}
+
+.absence2
+{
+	background: linear-gradient(to bottom, #f0e5e5 49%, #f0e5e5 1%, #FFFFFF 1%, #FFFFFF 50%);
+}
+
+.absence3
+{
+	background: linear-gradient(to bottom, #FFFFFF 49%, #FFFFFF 1%, #f0e5e5 1%, #f0e5e5 50%);
+}
+
+
 .cpa_jour
 {
 	background-color: #5cdcf8;	

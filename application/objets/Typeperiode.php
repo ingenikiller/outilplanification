@@ -8,5 +8,7 @@ class Typeperiode extends SavableObject {
 	
 	public $duree;
 	
+	public $principale;
+	
 }
 ?>

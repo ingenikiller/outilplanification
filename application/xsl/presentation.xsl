@@ -7,7 +7,7 @@
 		<xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
 		<html lang="fr">
 			<xsl:call-template name="Header">
-				<xsl:with-param name="HeadTitre">Appli congès</xsl:with-param>
+				<xsl:with-param name="HeadTitre">Planification</xsl:with-param>
 			</xsl:call-template>
 			<body>
 				<xsl:attribute name="onload">
@@ -30,6 +30,7 @@
 						</button>
 					  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
 						<li><a class="dropdown-item" href="index.php?domaine=calendrier&amp;service=getpage">Calendrier</a></li>
+						<li><a class="dropdown-item" href="index.php?domaine=visionequipe&amp;service=getpage">Vision équipe</a></li>
 						<li><a class="dropdown-item" href="index.php?domaine=periode&amp;service=getpage">Période</a></li>
 						<li><a class="dropdown-item" href="index.php?domaine=jourferie&amp;service=getpage">Jours fériés</a></li>
 					  </ul>
